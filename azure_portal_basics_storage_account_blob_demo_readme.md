@@ -50,7 +50,10 @@ common areas:
 4. Pick a **Region** close to you (e.g., `East US`).
 5. Click **Review + create** → **Create**.
 
-📸 **Add screenshot:** Resource Group create form before clicking *Create*
+<img width="1920" height="864" alt="resource groups" src="https://github.com/user-attachments/assets/6a349fbf-c64d-4dfe-a658-6bb748ccff4e" />
+<img width="1167" height="865" alt="creating a resource group" src="https://github.com/user-attachments/assets/4d2bbebe-22c5-4156-99b9-549a1aa4d98d" />
+
+
 
 ---
 
