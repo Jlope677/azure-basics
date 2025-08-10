@@ -69,13 +69,9 @@ common areas:
    - **Redundancy:** Locally‑redundant storage (LRS) is fine for this demo
 3. Click **Review** → **Create** and wait for deployment to complete.
 4. Click **Go to resource** when finished.
-<img width="1669" height="845" alt="storage accounts" src="https://github.com/user-attachments/assets/7420adc9-ad93-45ea-9c67-6c7175345ff8" />
-<img width="1484" height="836" alt="clicking our storage account" src="https://github.com/user-attachments/assets/342e91f6-086e-4736-8c3b-32d8cfeed129" />
-<img width="1553" height="871" alt="creating container" src="https://github.com/user-attachments/assets/1fd1c885-bf17-4d0c-b598-a1f5ca187a57" />
-
-
-
-
+<img width="1669" height="845" alt="storage accounts" src="https://github.com/user-attachments/assets/eeb242a8-1eac-4496-9d0c-a5e82bc3f893" />
+<img width="1356" height="838" alt="create storage account" src="https://github.com/user-attachments/assets/b2b42c76-9d68-47f2-ac8e-ddf5a41b3091" />
+<img width="1186" height="823" alt="create storage account 2" src="https://github.com/user-attachments/assets/fda89e2e-3b93-4504-8c23-de8b53654c66" />
 ---
 
 ## 6) Create a Local Text File
