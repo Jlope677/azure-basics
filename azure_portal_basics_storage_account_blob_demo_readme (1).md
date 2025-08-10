@@ -24,32 +24,32 @@ After verifying my identity and payment method (there was a small temporary auth
 
 ---
 
-## 2) Sign in to the Azure Portal
+## 2) Signing In to the Azure Portal
 
-1. Open [https://portal.azure.com](https://portal.azure.com) and sign in.
-2. Confirm your **Directory + subscription** in the top bar (click your profile → Switch directory if needed).
+I opened [https://portal.azure.com](https://portal.azure.com) and signed in, and checked my Directory + subscription from the top bar. Everything looked good.
 
----
 
-## 3) Quick Tour: Portal Layout
 
-common areas:
+## 3) Quick Look Around
 
-- **Resource groups** (left menu → *Resource groups*)
-- **Virtual machines** (left menu → *Virtual machines*)
-- **Microsoft Entra ID** (formerly Azure AD) (left menu → *Microsoft Entra ID*)
+I took a moment to explore the layout:
+
+## Resource groups
+
+## Virtual machines
+
+## Microsoft Entra ID (formerly Azure AD)
+
+
 
 <img width="1924" height="995" alt="Capture" src="https://github.com/user-attachments/assets/d78be477-e691-489e-a24e-03d18bef6130" />
 
 ---
 
-## 4) Create a Resource Group
+## 4)  Creating My Resource Group
 
-1. In the left menu, click **Resource groups** → **Create**.
-2. Choose your **Subscription**.
-3. Enter a **Resource group** name .
-4. Pick a **Region** close to you.
-5. Click **Review + create** → **Create**.
+I clicked Resource groups → Create. I selected my subscription, entered a resource group name, picked a region close to me, and clicked Review + create → Create.
+A few moments later, my new resource group was read
 
 <img width="1920" height="864" alt="resource groups" src="https://github.com/user-attachments/assets/6a349fbf-c64d-4dfe-a658-6bb748ccff4e" />
 <img width="1167" height="865" alt="creating a resource group" src="https://github.com/user-attachments/assets/4d2bbebe-22c5-4156-99b9-549a1aa4d98d" />
@@ -60,18 +60,25 @@ common areas:
 
 ---
 
-## 5) Create a Storage Account in that Resource Group
+## 5)  Creating My Storage Account
 
-1. Left menu → **Storage accounts** → **Create**.
-2. **Basics** tab:
-   - **Subscription:** your subscription
-   - **Resource group:** select the one you just made 
-   - **Storage account name:** globally unique, lowercase 
-   - **Region:** same as your RG if possible
-   - **Performance:** Standard
-   - **Redundancy:** Locally‑redundant storage (LRS) is fine for this demo
-3. Click **Review** → **Create** and wait for deployment to complete.
-4. Click **Go to resource** when finished.
+Next, I went to Storage accounts → Create.
+On the Basics tab, I set:
+
+## Subscription: my free Azure subscription
+
+## Resource group: the one I just created
+
+## Storage account name: a unique, lowercase name
+
+## Region: same as my resource group
+
+## Performance: Standard
+
+## Redundancy: Locally-redundant storage (LRS)
+
+I clicked Review → Create and waited for deployment. Then I opened the resource.
+
 <img width="1669" height="845" alt="storage accounts" src="https://github.com/user-attachments/assets/eeb242a8-1eac-4496-9d0c-a5e82bc3f893" />
 <img width="1356" height="838" alt="create storage account" src="https://github.com/user-attachments/assets/b2b42c76-9d68-47f2-ac8e-ddf5a41b3091" />
 <img width="1186" height="823" alt="create storage account 2" src="https://github.com/user-attachments/assets/fda89e2e-3b93-4504-8c23-de8b53654c66" />
