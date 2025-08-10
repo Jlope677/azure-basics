@@ -62,16 +62,18 @@ common areas:
 1. Left menu → **Storage accounts** → **Create**.
 2. **Basics** tab:
    - **Subscription:** your subscription
-   - **Resource group:** select the one you just made (`rg-azure-basics-demo`)
-   - **Storage account name:** globally unique, lowercase (e.g., `storazurebasics123`)
+   - **Resource group:** select the one you just made 
+   - **Storage account name:** globally unique, lowercase 
    - **Region:** same as your RG if possible
    - **Performance:** Standard
    - **Redundancy:** Locally‑redundant storage (LRS) is fine for this demo
 3. Click **Review** → **Create** and wait for deployment to complete.
 4. Click **Go to resource** when finished.
+<img width="1484" height="836" alt="clicking our storage account" src="https://github.com/user-attachments/assets/342e91f6-086e-4736-8c3b-32d8cfeed129" />
+<img width="1553" height="871" alt="creating container" src="https://github.com/user-attachments/assets/1fd1c885-bf17-4d0c-b598-a1f5ca187a57" />
 
-📸 **Add screenshot:** Storage account *Basics* settings\
-📸 **Add screenshot:** Deployment succeeded
+
+
 
 ---
 
