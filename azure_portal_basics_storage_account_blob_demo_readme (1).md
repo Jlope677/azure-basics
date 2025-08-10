@@ -49,7 +49,7 @@ I took a moment to explore the layout:
 ## 4)  Creating My Resource Group
 
 I clicked Resource groups → Create. I selected my subscription, entered a resource group name, picked a region close to me, and clicked Review + create → Create.
-A few moments later, my new resource group was read
+A few moments later, my new resource group was ready
 
 <img width="1920" height="864" alt="resource groups" src="https://github.com/user-attachments/assets/6a349fbf-c64d-4dfe-a658-6bb748ccff4e" />
 <img width="1167" height="865" alt="creating a resource group" src="https://github.com/user-attachments/assets/4d2bbebe-22c5-4156-99b9-549a1aa4d98d" />
