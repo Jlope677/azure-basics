@@ -1,10 +1,6 @@
-# Azure Portal Basics: Create a Resource Group + Storage Account and Upload/Edit a File
+# Azure Portal Basics: Create a Resource Group + Storage Account 
 
-A step‑by‑step, screenshot‑friendly walkthrough you can paste into GitHub. This shows how to create a free Azure subscription, sign in to the Azure Portal, create a Resource Group and a Storage Account, upload and edit a text file (blob), then clean up resources and check costs.
-
-> **Estimated time:** 20–30 minutes\
-> **Prereqs:** A Microsoft account (Outlook/Hotmail/Office 365) and a web browser\
-> **Cost note:** Using the Free trial or small, short‑lived resources should stay in the free tier. Always delete your Resource Group at the end.
+ This shows how to create a free Azure subscription, sign in to the Azure Portal, create a Resource Group and a Storage Account, upload and edit a text file (blob), then clean up resources and check costs.
 
 ---
 
@@ -22,7 +18,8 @@ A step‑by‑step, screenshot‑friendly walkthrough you can paste into GitHub.
 2. Complete the identity and payment verification (a small, temporary authorization may appear).
 3. When finished, you’ll land in the **Azure Portal** or you can open it directly at [https://portal.azure.com](https://portal.azure.com).
 
-📸 **Add screenshot:** Successful subscription creation / Azure Portal home
+<img width="1614" height="871" alt="portol" src="https://github.com/user-attachments/assets/3091d8bf-959e-4c73-9c76-a28f679e5a70" />
+
 
 ---
 
@@ -31,19 +28,17 @@ A step‑by‑step, screenshot‑friendly walkthrough you can paste into GitHub.
 1. Open [https://portal.azure.com](https://portal.azure.com) and sign in.
 2. Confirm your **Directory + subscription** in the top bar (click your profile → Switch directory if needed).
 
-📸 **Add screenshot:** Azure Portal home page after sign‑in
-
 ---
 
 ## 3) Quick Tour: Portal Layout
 
-Take a moment to note common areas:
+common areas:
 
 - **Resource groups** (left menu → *Resource groups*)
 - **Virtual machines** (left menu → *Virtual machines*)
 - **Microsoft Entra ID** (formerly Azure AD) (left menu → *Microsoft Entra ID*)
 
-📸 **Add screenshot:** Left navigation showing Resource groups, Virtual machines, Microsoft Entra ID
+<img width="1924" height="995" alt="Capture" src="https://github.com/user-attachments/assets/d78be477-e691-489e-a24e-03d18bef6130" />
 
 ---
 
