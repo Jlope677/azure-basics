@@ -34,11 +34,11 @@ I opened [https://portal.azure.com](https://portal.azure.com) and signed in, and
 
 I took a moment to explore the layout:
 
-## Resource groups
+ **Resource groups**
 
-## Virtual machines
+ **Virtual machines**
 
-## Microsoft Entra ID (formerly Azure AD)
+ **Microsoft Entra ID (formerly Azure AD)**
 
 
 
@@ -65,39 +65,37 @@ A few moments later, my new resource group was read
 Next, I went to Storage accounts → Create.
 On the Basics tab, I set:
 
-## Subscription: my free Azure subscription
+**Subscription: my free Azure subscription**
 
-## Resource group: the one I just created
+**Resource group: the one I just created**
 
-## Storage account name: a unique, lowercase name
+**Storage account name: a unique, lowercase name**
 
-## Region: same as my resource group
+**Region: same as my resource group**
 
-## Performance: Standard
+**Performance: Standard**
 
-## Redundancy: Locally-redundant storage (LRS)
+**Redundancy: Locally-redundant storage (LRS)**
 
-I clicked Review → Create and waited for deployment. Then I opened the resource.
+I clicked **Review → Create** and waited for deployment. Then I opened the resource.
 
 <img width="1669" height="845" alt="storage accounts" src="https://github.com/user-attachments/assets/eeb242a8-1eac-4496-9d0c-a5e82bc3f893" />
 <img width="1356" height="838" alt="create storage account" src="https://github.com/user-attachments/assets/b2b42c76-9d68-47f2-ac8e-ddf5a41b3091" />
 <img width="1186" height="823" alt="create storage account 2" src="https://github.com/user-attachments/assets/fda89e2e-3b93-4504-8c23-de8b53654c66" />
 ---
 
-## 6) Create a Local Text File
+## 6) Making a Local Text File
 
-- **Windows:** Right‑click desktop → **New → Text Document** → name it `azure-Lab.txt` → open and type: `Hello` → Save.
+On my Windows desktop, I created a new text document named azure-Lab.txt, typed “Hello” in it, and saved.
 <img width="1453" height="755" alt="create file" src="https://github.com/user-attachments/assets/128eb4ab-13ba-4c72-9d25-d5892086688d" />
 <img width="971" height="659" alt="saving text file" src="https://github.com/user-attachments/assets/8188c100-5ebd-4758-b806-ee9a5b6fc91c" />
 
 ---
 
-## 7) Create a Container and Upload the File
+## 7)  Creating a Container and Uploading My File
 
-1. In your **Storage account**, under **Data storage**, click **Containers**.
-2. Click **+ Container** → name it → **Public access level:** *Private* (default) → **Create**.
-3. Click the new container (`labtest`) → **Upload**.
-4. Select `azure-Lab.txt` from your desktop → **Upload**.
+Inside my new storage account, I went to Containers, clicked + Container, named it, kept Public access level set to Private, and created it.
+I opened the container, clicked Upload, selected my azure-Lab.txt file from the desktop, and uploaded it.
 <img width="1484" height="836" alt="clicking our storage account" src="https://github.com/user-attachments/assets/63ed9259-5d9f-442b-ab77-e6c955909089" />
 <img width="1553" height="871" alt="creating container" src="https://github.com/user-attachments/assets/21fe9626-9e0d-4d85-9a45-ca17031054c4" />
 <img width="1917" height="779" alt="uploading file" src="https://github.com/user-attachments/assets/f0347d2f-f380-44ad-986c-86db45f2130d" />
@@ -114,9 +112,8 @@ I clicked Review → Create and waited for deployment. Then I opened the resourc
 
 ## 8) Edit the Blob in the Portal
 
-1. Inside the container, click the uploaded `azure-Lab.txt` blob.
-2. Click **Edit** (or **Edit (preview)**) in the top bar.
-3. Append a new line, e.g., `Edited in Azure Portal.` → click **Save**.
+From the container, I opened the **azure-Lab.txt** blob and clicked Edit.I added a new line:
+Then I clicked Save.
 <img width="1920" height="821" alt="click the dots" src="https://github.com/user-attachments/assets/ebaff115-f472-4307-a62e-71b79fcf8e29" />
 <img width="1655" height="869" alt="edited file" src="https://github.com/user-attachments/assets/295d19f7-b98b-4480-af9a-66f512a14177" />
 
@@ -127,9 +124,7 @@ I clicked Review → Create and waited for deployment. Then I opened the resourc
 ---
 
 ## 9) Download and Verify
-
-1. With `azure-Lab.txt` selected, click **Download** to save a copy locally 
-2. Open the downloaded file and confirm it includes your edit.
+I downloaded the updated blob to my computer and opened it — my new line was there.
 <img width="1711" height="795" alt="downloaded file" src="https://github.com/user-attachments/assets/521ea029-1c9b-41f3-97f9-5d2a46aba4d2" />
 
 
@@ -138,12 +133,8 @@ I clicked Review → Create and waited for deployment. Then I opened the resourc
 
 ## 10) Clean Up (Delete the Resource Group)
 
-> **Important:** This prevents ongoing charges.
-
-1. Left menu → **Resource groups** → select `rg-azure-basics-demo`.
-2. Click **Delete resource group**.
-3. Type the RG name to confirm → **Delete**.
-4. Wait until status shows **Deleted** (may take a minute or two).
+To avoid charges, I deleted everything.
+I went to Resource groups, selected mine, clicked Delete resource group, typed the name to confirm, and waited until it was gone.
 
 <img width="1539" height="848" alt="delete resource group" src="https://github.com/user-attachments/assets/9f87fe88-bd0e-4428-b645-819ee07d6069" />
 <img width="1562" height="868" alt="delete resource group2" src="https://github.com/user-attachments/assets/62a22a07-6096-4209-b04f-4b26ba27fcb2" />
@@ -154,21 +145,19 @@ I clicked Review → Create and waited for deployment. Then I opened the resourc
 
 ---
 
-## 11) Verify Deletion & Costs
-
-1. Confirm the RG is gone from **Resource groups**.
-2. Go to **Cost Management + Billing → Cost Management → Cost analysis**.
-3. Set the **Scope** to your subscription and review any costs (should be minimal/zero for this short demo).
+## 11) My Notes & Takeaways
+I checked Resource groups to make sure mine was gone, then went to Cost Management + Billing → Cost analysis. My costs were at zero.
 
 
 ---
 
 ## 12) Notes & Tips
 
-- **Never forget cleanup:** Delete resource groups when done with demos/labs.
-- **Naming:** Use concise, unique names. Lowercase letters and numbers are safest for storage account names.
-- **Regions:** Keep resources in the same region to minimize latency and simplify costs.
-- **Permissions:** If you’re using a work/school account, your tenant admin might restrict creation of certain resources.
+**Always delete your resource groups when you’re done with a lab.**
+
+**Keep names short, lowercase, and unique.**
+
+**Use the same region for all related resources to keep things simple.**
 
 ---
 
