@@ -46,8 +46,8 @@ common areas:
 
 1. In the left menu, click **Resource groups** → **Create**.
 2. Choose your **Subscription**.
-3. Enter a **Resource group** name (e.g., `rg-azure-basics-demo`).
-4. Pick a **Region** close to you (e.g., `East US`).
+3. Enter a **Resource group** name .
+4. Pick a **Region** close to you.
 5. Click **Review + create** → **Create**.
 
 <img width="1920" height="864" alt="resource groups" src="https://github.com/user-attachments/assets/6a349fbf-c64d-4dfe-a658-6bb748ccff4e" />
