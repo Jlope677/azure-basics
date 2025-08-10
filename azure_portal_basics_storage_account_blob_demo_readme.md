@@ -76,11 +76,8 @@ common areas:
 
 ## 6) Create a Local Text File
 
-- **Windows:** Right‑click desktop → **New → Text Document** → name it `hello.txt` → open and type: `Hello from Azure!` → Save.
-- **macOS:** Open **TextEdit** → **TextEdit → Settings/Preferences** → set **Format: Plain text** → create `hello.txt`, type `Hello from Azure!` → Save to Desktop.
-
-📸 **Add screenshot:** Local text file open in Notepad/TextEdit
-
+- **Windows:** Right‑click desktop → **New → Text Document** → name it `azure-Lab.txt` → open and type: `Hello` → Save.
+<img width="1453" height="755" alt="create file" src="https://github.com/user-attachments/assets/128eb4ab-13ba-4c72-9d25-d5892086688d" />
 ---
 
 ## 7) Create a Container and Upload the File
