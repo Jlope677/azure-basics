@@ -1,0 +1,193 @@
+# Azure Portal Basics: Create a Resource Group + Storage Account and Upload/Edit a File
+
+A step‑by‑step, screenshot‑friendly walkthrough you can paste into GitHub. This shows how to create a free Azure subscription, sign in to the Azure Portal, create a Resource Group and a Storage Account, upload and edit a text file (blob), then clean up resources and check costs.
+
+> **Estimated time:** 20–30 minutes\
+> **Prereqs:** A Microsoft account (Outlook/Hotmail/Office 365) and a web browser\
+> **Cost note:** Using the Free trial or small, short‑lived resources should stay in the free tier. Always delete your Resource Group at the end.
+
+---
+
+## 0) Links
+
+- Create a **Free Azure** subscription: [https://azure.microsoft.com/en-us/free/](https://azure.microsoft.com/en-us/free/)
+- (Alternative) Create **Pay‑As‑You‑Go**: [https://azure.microsoft.com/en-us/pricing/purchase-options/pay-as-you-go](https://azure.microsoft.com/en-us/pricing/purchase-options/pay-as-you-go)
+- **Azure Portal**: [https://portal.azure.com](https://portal.azure.com)
+
+---
+
+## 1) Create a Subscription
+
+1. Go to the Free Azure page and click **Start free**. Sign in with your Microsoft account.
+2. Complete the identity and payment verification (a small, temporary authorization may appear).
+3. When finished, you’ll land in the **Azure Portal** or you can open it directly at [https://portal.azure.com](https://portal.azure.com).
+
+📸 **Add screenshot:** Successful subscription creation / Azure Portal home
+
+---
+
+## 2) Sign in to the Azure Portal
+
+1. Open [https://portal.azure.com](https://portal.azure.com) and sign in.
+2. Confirm your **Directory + subscription** in the top bar (click your profile → Switch directory if needed).
+
+📸 **Add screenshot:** Azure Portal home page after sign‑in
+
+---
+
+## 3) Quick Tour: Portal Layout
+
+Take a moment to note common areas:
+
+- **Resource groups** (left menu → *Resource groups*)
+- **Virtual machines** (left menu → *Virtual machines*)
+- **Microsoft Entra ID** (formerly Azure AD) (left menu → *Microsoft Entra ID*)
+
+📸 **Add screenshot:** Left navigation showing Resource groups, Virtual machines, Microsoft Entra ID
+
+---
+
+## 4) Create a Resource Group
+
+1. In the left menu, click **Resource groups** → **Create**.
+2. Choose your **Subscription**.
+3. Enter a **Resource group** name (e.g., `rg-azure-basics-demo`).
+4. Pick a **Region** close to you (e.g., `East US`).
+5. Click **Review + create** → **Create**.
+
+📸 **Add screenshot:** Resource Group create form before clicking *Create*
+
+---
+
+## 5) Create a Storage Account in that Resource Group
+
+1. Left menu → **Storage accounts** → **Create**.
+2. **Basics** tab:
+   - **Subscription:** your subscription
+   - **Resource group:** select the one you just made (`rg-azure-basics-demo`)
+   - **Storage account name:** globally unique, lowercase (e.g., `storazurebasics123`)
+   - **Region:** same as your RG if possible
+   - **Performance:** Standard
+   - **Redundancy:** Locally‑redundant storage (LRS) is fine for this demo
+3. Click **Review** → **Create** and wait for deployment to complete.
+4. Click **Go to resource** when finished.
+
+📸 **Add screenshot:** Storage account *Basics* settings\
+📸 **Add screenshot:** Deployment succeeded
+
+---
+
+## 6) Create a Local Text File
+
+- **Windows:** Right‑click desktop → **New → Text Document** → name it `hello.txt` → open and type: `Hello from Azure!` → Save.
+- **macOS:** Open **TextEdit** → **TextEdit → Settings/Preferences** → set **Format: Plain text** → create `hello.txt`, type `Hello from Azure!` → Save to Desktop.
+
+📸 **Add screenshot:** Local text file open in Notepad/TextEdit
+
+---
+
+## 7) Create a Container and Upload the File
+
+1. In your **Storage account**, under **Data storage**, click **Containers**.
+2. Click **+ Container** → name it (e.g., `files`) → **Public access level:** *Private* (default) → **Create**.
+3. Click the new container (`files`) → **Upload**.
+4. Select `hello.txt` from your desktop → **Upload**.
+
+📸 **Add screenshot:** Container list with `files`\
+📸 **Add screenshot:** Upload panel with `hello.txt`
+
+---
+
+## 8) Edit the Blob in the Portal
+
+1. Inside the container, click the uploaded `hello.txt` blob.
+2. Click **Edit** (or **Edit (preview)**) in the top bar.
+3. Append a new line, e.g., `Edited in Azure Portal.` → click **Save**.
+
+> If *Edit* isn’t available, use **Open → Open in text editor** or download/edit/re‑upload.
+
+📸 **Add screenshot:** Blob editor view with the extra line added
+
+---
+
+## 9) Download and Verify
+
+1. With `hello.txt` selected, click **Download** to save a copy locally (e.g., `hello (1).txt`).
+2. Open the downloaded file and confirm it includes your edit.
+
+📸 **Add screenshot:** Local view of the downloaded file showing both lines
+
+---
+
+## 10) Clean Up (Delete the Resource Group)
+
+> **Important:** This prevents ongoing charges.
+
+1. Left menu → **Resource groups** → select `rg-azure-basics-demo`.
+2. Click **Delete resource group**.
+3. Type the RG name to confirm → **Delete**.
+4. Wait until status shows **Deleted** (may take a minute or two).
+
+📸 **Add screenshot:** Delete confirmation dialog\
+📸 **Add screenshot:** RG list no longer shows the group
+
+---
+
+## 11) Verify Deletion & Costs
+
+1. Confirm the RG is gone from **Resource groups**.
+2. Go to **Cost Management + Billing → Cost Management → Cost analysis**.
+3. Set the **Scope** to your subscription and review any costs (should be minimal/zero for this short demo).
+
+📸 **Add screenshot:** Cost analysis chart (zero/near‑zero cost)
+
+---
+
+## 12) Notes & Tips
+
+- **Never forget cleanup:** Delete resource groups when done with demos/labs.
+- **Naming:** Use concise, unique names. Lowercase letters and numbers are safest for storage account names.
+- **Regions:** Keep resources in the same region to minimize latency and simplify costs.
+- **Permissions:** If you’re using a work/school account, your tenant admin might restrict creation of certain resources.
+
+---
+
+## 13) (Optional) GitHub README Template Block
+
+Copy this into your own repo’s `README.md` and replace the `📸` lines with your screenshots.
+
+```markdown
+# Azure Portal Basics Demo
+
+- [x] Created subscription  
+- [x] Signed in to Azure Portal  
+- [x] Created Resource Group  
+- [x] Created Storage Account  
+- [x] Uploaded & edited a blob  
+- [x] Verified changes locally  
+- [x] Deleted Resource Group  
+- [x] Checked Cost Management
+
+## Screenshots
+📸 Subscription created / Portal home
+📸 Resource Group creation
+📸 Storage Account created
+📸 Container + Upload dialog
+📸 Blob Edit view
+📸 Downloaded file with changes
+📸 Cost analysis
+```
+
+---
+
+## 14) Troubleshooting
+
+- **Can’t create resources?** Check your subscription/tenant permissions, or verify you’re not in a disabled/free‑trial‑expired state.
+- **Storage account name already taken?** Pick a more unique lowercase name (must be 3–24 chars, letters/numbers only).
+- **Blob Edit button missing?** Use *Open in text editor* or download → edit → upload a new version.
+- **Costs showing up?** Filter Cost Analysis by subscription and time range; ensure the RG is deleted and wait a few minutes.
+
+---
+
+**That’s it!** You created, tested, and cleaned up basic Azure resources—and verified your costs. ✅
+
