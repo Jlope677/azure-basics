@@ -1,10 +1,10 @@
-# Azure Portal Basics: Create a Resource Group + Storage Account 
+# Azure Portal Basics: My First Resource Group + Storage Account 
 
- This shows how to create a free Azure subscription, sign in to the Azure Portal, create a Resource Group and a Storage Account, upload and edit a text file (blob), then clean up resources and check costs.
+I decided to walk through the process of creating a free Azure subscription, setting up a Resource Group and a Storage Account, uploading and editing a blob, and then cleaning everything up so I wouldn’t get charged. Here’s exactly what I did.
 
 ---
 
-## 0) Links
+## 0)  Links I Used
 
 - Create a **Free Azure** subscription: [https://azure.microsoft.com/en-us/free/](https://azure.microsoft.com/en-us/free/)
 - (Alternative) Create **Pay‑As‑You‑Go**: [https://azure.microsoft.com/en-us/pricing/purchase-options/pay-as-you-go](https://azure.microsoft.com/en-us/pricing/purchase-options/pay-as-you-go)
@@ -12,11 +12,10 @@
 
 ---
 
-## 1) Create a Subscription
+## 1) Creating My Azure Subscription
 
-1. Go to the Free Azure page and click **Start free**. Sign in with your Microsoft account.
-2. Complete the identity and payment verification (a small, temporary authorization may appear).
-3. When finished, you’ll land in the **Azure Portal** or you can open it directly at [https://portal.azure.com](https://portal.azure.com).
+I went to the Free Azure page, clicked Start free, and signed in with my Microsoft account.
+After verifying my identity and payment method (there was a small temporary authorization), I landed inside the Azure Portal. [https://portal.azure.com](https://portal.azure.com).
 
 <img width="1614" height="871" alt="portol" src="https://github.com/user-attachments/assets/3091d8bf-959e-4c73-9c76-a28f679e5a70" />
 <img width="1553" height="871" alt="creating container" src="https://github.com/user-attachments/assets/42f35185-fa91-4460-8ec7-40a3ce0b1151" />
