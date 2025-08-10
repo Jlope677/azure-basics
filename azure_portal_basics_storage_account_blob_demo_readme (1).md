@@ -84,9 +84,9 @@ I clicked **Review → Create** and waited for deployment. Then I opened the res
 <img width="1186" height="823" alt="create storage account 2" src="https://github.com/user-attachments/assets/fda89e2e-3b93-4504-8c23-de8b53654c66" />
 ---
 
-## 6) Making a Local Text File
+## 6) Making a Local Text File 
 
-On my Windows desktop, I created a new text document named azure-Lab.txt, typed “Hello” in it, and saved.
+On my Windows desktop, I created a new text document named azure-Lab.txt, typed “Hello” in it, and saved it.
 <img width="1453" height="755" alt="create file" src="https://github.com/user-attachments/assets/128eb4ab-13ba-4c72-9d25-d5892086688d" />
 <img width="971" height="659" alt="saving text file" src="https://github.com/user-attachments/assets/8188c100-5ebd-4758-b806-ee9a5b6fc91c" />
 
