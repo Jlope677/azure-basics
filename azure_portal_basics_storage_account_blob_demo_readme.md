@@ -108,22 +108,25 @@ common areas:
 
 ## 8) Edit the Blob in the Portal
 
-1. Inside the container, click the uploaded `hello.txt` blob.
+1. Inside the container, click the uploaded `azure-Lab.txt` blob.
 2. Click **Edit** (or **Edit (preview)**) in the top bar.
 3. Append a new line, e.g., `Edited in Azure Portal.` → click **Save**.
+<img width="1920" height="821" alt="click the dots" src="https://github.com/user-attachments/assets/ebaff115-f472-4307-a62e-71b79fcf8e29" />
+<img width="1655" height="869" alt="edited file" src="https://github.com/user-attachments/assets/295d19f7-b98b-4480-af9a-66f512a14177" />
 
-> If *Edit* isn’t available, use **Open → Open in text editor** or download/edit/re‑upload.
 
-📸 **Add screenshot:** Blob editor view with the extra line added
+
+
 
 ---
 
 ## 9) Download and Verify
 
-1. With `hello.txt` selected, click **Download** to save a copy locally (e.g., `hello (1).txt`).
+1. With `azure-Lab.txt` selected, click **Download** to save a copy locally 
 2. Open the downloaded file and confirm it includes your edit.
+<img width="1711" height="795" alt="downloaded file" src="https://github.com/user-attachments/assets/521ea029-1c9b-41f3-97f9-5d2a46aba4d2" />
 
-📸 **Add screenshot:** Local view of the downloaded file showing both lines
+
 
 ---
 
@@ -136,8 +139,12 @@ common areas:
 3. Type the RG name to confirm → **Delete**.
 4. Wait until status shows **Deleted** (may take a minute or two).
 
-📸 **Add screenshot:** Delete confirmation dialog\
-📸 **Add screenshot:** RG list no longer shows the group
+<img width="1539" height="848" alt="delete resource group" src="https://github.com/user-attachments/assets/9f87fe88-bd0e-4428-b645-819ee07d6069" />
+<img width="1562" height="868" alt="delete resource group2" src="https://github.com/user-attachments/assets/62a22a07-6096-4209-b04f-4b26ba27fcb2" />
+<img width="1798" height="831" alt="deleted group" src="https://github.com/user-attachments/assets/8eced314-43da-4d80-8c36-cfe39b78555f" />
+
+
+
 
 ---
 
@@ -147,7 +154,6 @@ common areas:
 2. Go to **Cost Management + Billing → Cost Management → Cost analysis**.
 3. Set the **Scope** to your subscription and review any costs (should be minimal/zero for this short demo).
 
-📸 **Add screenshot:** Cost analysis chart (zero/near‑zero cost)
 
 ---
 
@@ -159,43 +165,4 @@ common areas:
 - **Permissions:** If you’re using a work/school account, your tenant admin might restrict creation of certain resources.
 
 ---
-
-## 13) (Optional) GitHub README Template Block
-
-Copy this into your own repo’s `README.md` and replace the `📸` lines with your screenshots.
-
-```markdown
-# Azure Portal Basics Demo
-
-- [x] Created subscription  
-- [x] Signed in to Azure Portal  
-- [x] Created Resource Group  
-- [x] Created Storage Account  
-- [x] Uploaded & edited a blob  
-- [x] Verified changes locally  
-- [x] Deleted Resource Group  
-- [x] Checked Cost Management
-
-## Screenshots
-📸 Subscription created / Portal home
-📸 Resource Group creation
-📸 Storage Account created
-📸 Container + Upload dialog
-📸 Blob Edit view
-📸 Downloaded file with changes
-📸 Cost analysis
-```
-
----
-
-## 14) Troubleshooting
-
-- **Can’t create resources?** Check your subscription/tenant permissions, or verify you’re not in a disabled/free‑trial‑expired state.
-- **Storage account name already taken?** Pick a more unique lowercase name (must be 3–24 chars, letters/numbers only).
-- **Blob Edit button missing?** Use *Open in text editor* or download → edit → upload a new version.
-- **Costs showing up?** Filter Cost Analysis by subscription and time range; ensure the RG is deleted and wait a few minutes.
-
----
-
-**That’s it!** You created, tested, and cleaned up basic Azure resources—and verified your costs. ✅
 
