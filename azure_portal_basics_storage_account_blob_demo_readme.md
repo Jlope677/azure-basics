@@ -86,9 +86,8 @@ common areas:
 2. Click **+ Container** → name it (e.g., `files`) → **Public access level:** *Private* (default) → **Create**.
 3. Click the new container (`files`) → **Upload**.
 4. Select `hello.txt` from your desktop → **Upload**.
+<img width="1484" height="836" alt="clicking our storage account" src="https://github.com/user-attachments/assets/63ed9259-5d9f-442b-ab77-e6c955909089" />
 
-📸 **Add screenshot:** Container list with `files`\
-📸 **Add screenshot:** Upload panel with `hello.txt`
 
 ---
 
