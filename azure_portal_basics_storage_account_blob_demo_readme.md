@@ -89,8 +89,10 @@ common areas:
 1. In your **Storage account**, under **Data storage**, click **Containers**.
 2. Click **+ Container** → name it (e.g., `files`) → **Public access level:** *Private* (default) → **Create**.
 3. Click the new container (`files`) → **Upload**.
-4. Select `hello.txt` from your desktop → **Upload**.
+4. Select `azure-Lab.txt` from your desktop → **Upload**.
 <img width="1484" height="836" alt="clicking our storage account" src="https://github.com/user-attachments/assets/63ed9259-5d9f-442b-ab77-e6c955909089" />
+<img width="1553" height="871" alt="creating container" src="https://github.com/user-attachments/assets/21fe9626-9e0d-4d85-9a45-ca17031054c4" />
+
 
 
 ---
