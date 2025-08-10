@@ -94,6 +94,12 @@ common areas:
 4. Select `azure-Lab.txt` from your desktop → **Upload**.
 <img width="1484" height="836" alt="clicking our storage account" src="https://github.com/user-attachments/assets/63ed9259-5d9f-442b-ab77-e6c955909089" />
 <img width="1553" height="871" alt="creating container" src="https://github.com/user-attachments/assets/21fe9626-9e0d-4d85-9a45-ca17031054c4" />
+<img width="1917" height="779" alt="uploading file" src="https://github.com/user-attachments/assets/f0347d2f-f380-44ad-986c-86db45f2130d" />
+<img width="1918" height="763" alt="uploading file2" src="https://github.com/user-attachments/assets/eb2c769d-65e4-4b15-a1fa-87413e3d07e4" />
+<img width="1915" height="590" alt="uploaded" src="https://github.com/user-attachments/assets/6ccc91ab-0cc3-42a1-935a-dd1ad573b926" />
+
+
+
 
 
 
