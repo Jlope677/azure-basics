@@ -18,7 +18,7 @@ I went to the Free Azure page, clicked Start free, and signed in with my Microso
 After verifying my identity and payment method (there was a small temporary authorization), I landed inside the Azure Portal. [https://portal.azure.com](https://portal.azure.com).
 
 <img width="1614" height="871" alt="portol" src="https://github.com/user-attachments/assets/3091d8bf-959e-4c73-9c76-a28f679e5a70" />
-<img width="1553" height="871" alt="creating container" src="https://github.com/user-attachments/assets/42f35185-fa91-4460-8ec7-40a3ce0b1151" />
+
 
 
 
