@@ -19,6 +19,8 @@
 3. When finished, you’ll land in the **Azure Portal** or you can open it directly at [https://portal.azure.com](https://portal.azure.com).
 
 <img width="1614" height="871" alt="portol" src="https://github.com/user-attachments/assets/3091d8bf-959e-4c73-9c76-a28f679e5a70" />
+<img width="1553" height="871" alt="creating container" src="https://github.com/user-attachments/assets/42f35185-fa91-4460-8ec7-40a3ce0b1151" />
+
 
 
 ---
@@ -78,6 +80,8 @@ common areas:
 
 - **Windows:** Right‑click desktop → **New → Text Document** → name it `azure-Lab.txt` → open and type: `Hello` → Save.
 <img width="1453" height="755" alt="create file" src="https://github.com/user-attachments/assets/128eb4ab-13ba-4c72-9d25-d5892086688d" />
+<img width="971" height="659" alt="saving text file" src="https://github.com/user-attachments/assets/8188c100-5ebd-4758-b806-ee9a5b6fc91c" />
+
 ---
 
 ## 7) Create a Container and Upload the File
