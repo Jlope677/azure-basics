@@ -54,6 +54,8 @@ common areas:
 
 <img width="1920" height="864" alt="resource groups" src="https://github.com/user-attachments/assets/6a349fbf-c64d-4dfe-a658-6bb748ccff4e" />
 <img width="1167" height="865" alt="creating a resource group" src="https://github.com/user-attachments/assets/4d2bbebe-22c5-4156-99b9-549a1aa4d98d" />
+<img width="864" height="627" alt="review and create" src="https://github.com/user-attachments/assets/af3ce2b5-2324-4a82-b7cc-a5645247d38b" />
+
 
 
 
@@ -92,6 +94,7 @@ common areas:
 4. Select `azure-Lab.txt` from your desktop → **Upload**.
 <img width="1484" height="836" alt="clicking our storage account" src="https://github.com/user-attachments/assets/63ed9259-5d9f-442b-ab77-e6c955909089" />
 <img width="1553" height="871" alt="creating container" src="https://github.com/user-attachments/assets/21fe9626-9e0d-4d85-9a45-ca17031054c4" />
+
 
 
 
